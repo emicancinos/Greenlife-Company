@@ -1,0 +1,2446 @@
+
+nav{
+    background-color: white;
+    font-size: 13px;
+    line-height: 19px;
+    color: #777777;
+    font-family: Poppins;
+  
+}
+
+
+nav a{
+    text-decoration:none;
+    color: #777777;
+}
+nav a:hover{
+    /* Verde */
+
+    color: #9BC617;
+    
+}
+.nav_logo{
+    /* logo-web 1 */
+
+    position: absolute;
+    width: 99.44px;
+    height: 67.19px;
+    left: 163.94px;
+    top: 39px;
+
+    background: url("logo-web\ 1.png");
+    background-size: cover;
+}
+
+.nav_home{
+    /* Home */
+
+
+    position: absolute;
+    width: 57.33px;
+    height: 21.5px;
+    left: 450.6px;
+    top: 70.35px;
+
+   
+
+   
+    
+}
+
+.nav_productos{
+    /* Productos */
+
+
+    position: absolute;
+    width: 72.56px;
+    height: 21.5px;
+    left: 525.85px;
+    top: 70.35px;
+    text-decoration: underline;
+    
+}
+.dropdown-item:hover{
+    background-color:green;
+}
+
+.nav_nosotros{
+    /* Nosotros */
+
+
+    position: absolute;
+    width: 77.94px;
+    height: 21.5px;
+    left: 631px;
+    top: 70px;
+   
+
+    
+}
+.nav_contacto{
+    /* Contacto */
+
+    position: absolute;
+    width: 72.44px;
+    height: 19.98px;
+    left: 716px;
+    top: 70px;
+  
+
+   
+}
+.nav_search{
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 166.62px;
+    height: 24.19px;
+    left: 903.9px;
+    top: 66.77px;
+
+    border: 0.5px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 13.5px;
+}
+.line{
+    /* Line 1 */
+
+
+    position: absolute;
+    width: 1290px;
+    height: 0px;
+    left: 0px;
+    top: 124.1px;
+
+    border: 0.5px solid #A5A5A5;
+}
+.footer{
+    /* Footer */
+
+
+    position: absolute;
+    width: 1290px;
+    height: 220.38px;
+    left: 0px;
+    top: 2234px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Azul */
+
+    background: #27566A;
+}
+
+.leftFootUl{
+    /* Almacén Natural */
+
+
+    position: absolute;
+    width: 247.25px;
+    height: 26.88px;
+    left: 60.02px;
+    top: 2281.48px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.leftFootLi{
+    /* Av. 7 132, La Plata, Buenos Aires. +54 (011) 15 2259-6325 greenlife_laplata@hotmail.com */
+
+
+    position: absolute;
+    width: 291.33px;
+    height: 105.35px;
+    left: 60.2px;
+    top: 2327.79px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.centerFootLi{
+   /* Secciones */
+
+
+    position: absolute;
+    width: 247.25px;
+    height: 26.88px;
+    left: 404.92px;
+    top: 2281.48px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.productosFoot{
+   /* Productos */
+
+
+    position: absolute;
+    width: 104.81px;
+    height: 21.5px;
+    left: 404.92px;
+    top: 2328.06px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.nosotrosFoot{
+    /* Nosotros */
+
+
+    position: absolute;
+    width: 104.81px;
+    height: 21.5px;
+    left: 404.92px;
+    top: 2353.15px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.contactoFoot{
+   /* Contacto */
+
+
+    position: absolute;
+    width: 104.81px;
+    height: 21.5px;
+    left: 404.92px;
+    top: 2378.23px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    
+}
+.rightFootLi{
+    /* Seguinos */
+
+
+    position: absolute;
+    width: 157.67px;
+    height: 26.88px;
+    left: 1034.87px;
+    top: 2281.48px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.rightFootIg{
+    /* greenlife_laplata */
+
+
+    position: absolute;
+    width: 158.56px;
+    height: 21.5px;
+    left: 1066.58px;
+    top: 2324.48px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.rightFootFb{
+    /* Green Life La Plata */
+
+
+    position: absolute;
+    width: 158.56px;
+    height: 21.5px;
+    left: 1066.58px;
+    top: 2361.21px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.copyright{
+    /* legales */
+
+
+    position: absolute;
+    width: 516px;
+    height: 22.58px;
+    left: 387px;
+    top: 2466.47px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #777777;
+
+}
+.bannerProductos{
+    /* banner-ppal-web 1 */
+    position: absolute;
+    width: 989px;
+    height: 445px;
+    left: 150px;
+    top: 134px;
+
+    background: url("Images/banner-ppal-web\ 1.png");
+    background-size:cover;
+}
+.titleP{
+    /* Productos */
+
+    position: absolute;
+    width: 187.76px;
+    height: 46.94px;
+    left: 551.16px;
+    top: 630.4px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #595959;
+}
+.leftP{
+    /* Rectangle 8 */
+    position: absolute;
+    width: 376.97px;
+    height: 1.08px;
+    left: 152.17px;
+    top: 657.21px;
+
+    background: #595959;
+    border-radius: 1.5px;
+}
+.rightP{
+    /* Rectangle 9 */
+
+
+    position: absolute;
+    width: 376.97px;
+    height: 1.08px;
+    left: 762.03px;
+    top: 657.21px;
+
+    background: #595959;
+    border-radius: 1.5px;
+}
+.asideP{
+    position:absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #595959;
+
+}
+.asideP a{ 
+    text-decoration:none;
+    color: #595959;
+}
+.asideP a:hover{
+    transform: scale(1.2, 1.2);
+}
+.asideP__categorias{
+    /* Categorías */
+
+
+    position: absolute;
+    width: 105px;
+    height: 27px;
+    left: 150px;
+    top: 723px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #595959;
+}
+.asideP__categorias--cereales{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 150px;
+    top: 766px;
+}
+.asideP__categorias--frutos{
+    /* Frutos Secos */
+
+
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 150px;
+    top: 798px;
+
+}
+.asideP__categorias--mix{
+    /* Mix y Semillas */
+
+
+    position: absolute;
+    width: 94px;
+    height: 20px;
+    left: 150px;
+    top: 831px;
+}
+.asideP__categorias--deshidratadas{
+    /* Frutas Deshidratadas */
+
+
+    position: absolute;
+    width: 146px;
+    height: 21px;
+    left: 150px;
+    top: 863px;
+}
+.asideP__categorias--legumbres{
+    /* Legumbres */
+
+
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 150px;
+    top: 896px;
+}
+.asideP__categorias--conservas{
+    /* Conservas */
+
+
+    position: absolute;
+    width: 73px;
+    height: 21px;
+    left: 150px;
+    top: 928px;
+}
+.asideP__categorias--leches{
+    /* Leches Vegetales */
+
+
+    position: absolute;
+    width: 119px;
+    height: 20px;
+    left: 150px;
+    top: 961px;
+}
+.asideP__categorias--dulces{
+    /* Dulces */
+
+
+    position: absolute;
+    width: 46px;
+    height: 21px;
+    left: 150px;
+    top: 993px;
+
+}
+.rectangle{
+    font-family: Poppins;
+    font-style: normal;
+}
+.rectangle__border--1{
+    /* Rectangle 3 */
+
+    position: absolute;
+    width: 191px;
+    height: 251px;
+    left: 333px;
+    top: 766px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--1{
+    /* Line 5 */
+
+
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 333px;
+    top: 937px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--1{
+    /* nuez mariposa 1 */
+
+    position: absolute;
+    width: 172px;
+    height: 144px;
+    left: 341px;
+    top: 786px;
+
+    background: url("Images/nuez\ mariposa\ 1.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+.rectangle__product--1{
+    /* Nuez Mariposa */
+
+
+    position: absolute;
+    width: 93px;
+    height: 19px;
+    left: 382px;
+    top: 948px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration:none;
+}
+.rectangle__product--1:hover{
+    transform: scale(1.2 ,1.2);
+}
+.rectangle__precio--1{
+    /* $109 */
+    position: absolute;
+    width: 37px;
+    height: 25px;
+    left: 410px;
+    top: 969px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--1{
+    /* A partir de 100gr */
+
+
+    position: absolute;
+    width: 61px;
+    height: 9px;
+    left: 398px;
+    top: 1000px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--2{
+    /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 192px;
+    height: 251px;
+    left: 538px;
+    top: 766px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__foto--2{
+/* nuez mariposa 2 */
+
+    position: absolute;
+    width: 177px;
+    height: 150px;
+    left: 545px;
+    top: 786px;
+
+    background: url("Images/nuez\ mariposa\ 2.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+.rectangle__line--2{
+    /* Line 2 */
+
+    position: absolute;
+    width: 192px;
+    height: 0px;
+    left: 538px;
+    top: 937px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__product--2{
+    /* Castañas de Cajú */
+
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 576px;
+    top: 948px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration:none;
+}
+.rectangle__product--2:hover{
+    transform: scale(1.2 , 1.2);
+}
+.rectangle__precio--2{
+    /* $113 */
+
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 618px;
+    top: 969px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    
+    /* Verde */
+    
+    color: #9BC617;
+}
+.rectangle__cantidad--2{
+    /* A partir de 100gr */
+    position: absolute;
+    width: 62px;
+    height: 9px;
+    left: 603px;
+    top: 1000px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--3{
+    /* Rectangle 11 */
+    position: absolute;
+    width: 191px;
+    height: 251px;
+    left: 743px;
+    top: 766px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--3{
+    /* Line 3 */
+
+
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 743px;
+    top: 937px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--3{
+    /* nuez mariposa 3 */
+    position: absolute;
+    width: 148px;
+    height: 135px;
+    left: 769px;
+    top: 795px;
+
+    background: url("Images/nuez\ mariposa\ 3.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--3{
+    /* Almendras non pareil */
+
+
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 770px;
+    top: 948px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration: none;
+}
+.rectangle__product--3:hover{
+    transform: scale(1.2 , 1.2);
+}
+.rectangle__precio--3{
+    /* $142 */
+
+
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 822px;
+    top: 969px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--3{
+    /* A partir de 100gr */
+
+
+    position: absolute;
+    width: 61px;
+    height: 9px;
+    left: 808px;
+    top: 1000px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--4{
+    /* Rectangle 4 */
+    position: absolute;
+    width: 192px;
+    height: 251px;
+    left: 947px;
+    top: 766px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--4{
+    /* Line 4 */
+    position: absolute;
+    width: 192px;
+    height: 0px;
+    left: 947px;
+    top: 937px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--4{
+    /* pistachos c/cascara 4 */
+
+    position: absolute;
+    width: 179px;
+    height: 149px;
+    left: 954px;
+    top: 783px;
+
+    background: url("Images/nuez\ mariposa\ 4.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--4{
+    /* Pistachos c/cáscara */
+
+
+    position: absolute;
+    width: 130px;
+    height: 14px;
+    left: 979px;
+    top: 948px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration:none;
+}
+.rectangle__product--4:hover{
+    transform: scale(1.2 , 1.2);
+}
+.rectangle__precio--4{
+    /* $207 */
+
+
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 1024px;
+    top: 969px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--4{
+    /* A partir de 100gr */
+
+
+    position: absolute;
+    width: 62px;
+    height: 9px;
+    left: 1012px;
+    top: 1000px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--5{
+    position: absolute;
+    width: 191px;
+    height: 251px;
+    left: 333px;
+    top: 1031px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--5{
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 333px;
+    top: 1202px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--5{
+    position: absolute;
+    width: 172px;
+    height: 144px;
+    left: 341px;
+    top: 1051px;
+
+    background: url("Images/nuez\ mariposa\ 5.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--5{
+    /* Maní con cáscara */
+
+
+    position: absolute;
+    width: 151px;
+    height: 16px;
+    left: 353px;
+    top: 1213px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration:none;
+}
+.rectangle__product--5:hover{
+    transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
+}
+.rectangle__precio--5{
+    position: absolute;
+    width: 37px;
+    height: 25px;
+    left: 410px;
+    top: 1234px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--5{
+    
+    position: absolute;
+    width: 61px;
+    height: 9px;
+    left: 398px;
+    top: 1265px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--6{
+    position: absolute;
+    width: 192px;
+    height: 251px;
+    left: 538px;
+    top: 1031px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--6{
+    position: absolute;
+    width: 192px;
+    height: 0px;
+    left: 538px;
+    top: 1202px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--6{
+    position: absolute;
+    width: 177px;
+    height: 133px;
+    left: 545px;
+    top: 1051px;
+
+    background: url("Images/nuez\ mariposa\ 6.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--6{
+    position: absolute;
+    width: 164px;
+    height: 19px;
+    left: 552px;
+    top: 1213px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration: none;
+}
+.rectangle__product--6:hover{
+    transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
+}
+.rectangle__precio--6{
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 618px;
+    top: 1234px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--6{
+    position: absolute;
+    width: 62px;
+    height: 9px;
+    left: 603px;
+    top: 1265px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--7{
+    position: absolute;
+    width: 191px;
+    height: 251px;
+    left: 743px;
+    top: 1031px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--7{
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 743px;
+    top: 1202px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--7{
+
+   
+    position: absolute;
+    width: 174px;
+    height: 124px;
+    left: 752px;
+    top: 1061px;
+
+    background: url("Images/nuez\ mariposa\ 7.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--7{
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 770px;
+    top: 1213px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration: none;
+}
+.rectangle__product--7:hover{
+    transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
+}
+.rectangle__precio--7{
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 822px;
+    top: 1234px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--7{
+    position: absolute;
+    width: 61px;
+    height: 9px;
+    left: 808px;
+    top: 1265px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+.rectangle__border--8{
+    position: absolute;
+    width: 192px;
+    height: 251px;
+    left: 947px;
+    top: 1031px;
+
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.rectangle__line--8{
+    position: absolute;
+    width: 192px;
+    height: 0px;
+    left: 947px;
+    top: 1202px;
+
+    border: 1px solid #C3C3C3;
+}
+.rectangle__foto--8{
+    position: absolute;
+    width: 170px;
+    height: 142px;
+    left: 965px;
+    top: 1049px;
+
+    background: url("Images/nuez\ mariposa\ 8.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.rectangle__product--8{
+    position: absolute;
+    width: 130px;
+    height: 14px;
+    left: 979px;
+    top: 1213px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #595959;
+    text-decoration: none;
+}
+.rectangle__product--8:hover{
+    transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
+}
+.rectangle__precio--8{
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 1024px;
+    top: 1234px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Verde */
+
+    color: #9BC617;
+}
+.rectangle__cantidad--8{
+    position: absolute;
+    width: 62px;
+    height: 9px;
+    left: 1012px;
+    top: 1265px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+
+    color: #595959;
+}
+button{
+    position: absolute;
+    width: 214px;
+    height: 44px;
+    left: 625px;
+    top: 1327px;
+
+    background: #BCBCBC;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 142.69%;
+    /* or 21px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.leftContactanos{
+    /* line 1  */
+
+    position: absolute;
+    width: 361px;
+    height: 1px;
+    left: 150px;
+    top: 182px;
+
+    background: #595959;
+    border-radius: 1.5px;
+}
+.rightContactanos{
+    /* line 2 */
+
+    position: absolute;
+    width: 351px;
+    height: 1px;
+    left: 788px;
+    top: 182px;
+
+    background: #595959;
+    border-radius: 1.5px;
+}
+.contactanos{
+    /* ¡Contactános! */
+
+    position: absolute;
+    width: 239.79px;
+    height: 48.86px;
+    left: 530px;
+    top: 155.36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #595959;
+}
+.subTitle{
+    /* Estamos acá para asesorarte. */
+
+
+    position: absolute;
+    width: 211px;
+    height: 18px;
+    left: 544px;
+    top: 207px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 142.69%;
+    /* or 20px */
+
+    text-align: center;
+
+    color: #595959;
+
+}
+.aside{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #595959;
+}
+#contacto{
+    /* Contacto */
+
+
+    position: absolute;
+    width: 136.63px;
+    height: 30.76px;
+    left: 150px;
+    top: 286px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #595959;
+}
+#whatsApp{
+    /* Whatsapp */
+
+
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 151px;
+    top: 343.22px;
+
+}
+#number{
+    /* +54 11 15 2259-6325 */
+
+
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 151px;
+    top: 368.22px;
+}
+#email{
+    /* Email */
+
+
+    position: absolute;
+    width: 46px;
+    height: 24px;
+    left: 151px;
+    top: 410.22px;
+}
+#mail{
+    /* greenlife_laplata@hotmail.com */
+
+
+    position: absolute;
+    width: 262px;
+    height: 25px;
+    left: 151px;
+    top: 435.22px;
+}
+#adress{
+    /* Dirección */
+
+
+    position: absolute;
+    width: 72px;
+    height: 23px;
+    left: 151px;
+    top: 477.22px;
+}
+#adressNum{
+    /* Av. 7 132, La Plata, Buenos Aires */
+
+
+    position: absolute;
+    width: 249px;
+    height: 24px;
+    left: 151px;
+    top: 503.22px;
+}
+#horario{
+    /* Horario de Atención */
+
+
+    position: absolute;
+    width: 165px;
+    height: 25px;
+    left: 151px;
+    top: 543.22px;
+}
+#hour{
+    /* Lunes a Viernes - 9:00 a 18:00hs */
+
+
+    position: absolute;
+    width: 256px;
+    height: 24px;
+    left: 151px;
+    top: 569.22px;
+}
+.container{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 142.69%;
+}
+#helpYou{
+    /* ¿En que podemos ayudarte? */
+
+
+    position: absolute;
+    width: 355.61px;
+    height: 30.76px;
+    left: 523.7px;
+    top: 286px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #595959;
+}
+#name{
+    /* Nombre */
+
+
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: 524px;
+    top: 343.22px;
+    color: #595959;
+}
+#nameInput{
+    position: absolute;
+    width: 298px;
+    height: 35px;
+    left: 524px;
+    top: 371.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+}
+#surname{
+    /* Apellido */
+
+
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    left: 840px;
+    top: 343.22px;
+    color: #595959;
+}
+#surnameInput{
+    position: absolute;
+    width: 299px;
+    height: 35px;
+    left: 840px;
+    top: 371.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+}
+#contactoMail{
+    /* Email */
+
+
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    left: 524px;
+    top: 426.22px;
+}
+#mailInput{
+    /* Rectangle 12 */
+
+
+    position: absolute;
+    width: 298px;
+    height: 35px;
+    left: 524px;
+    top: 455.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+}
+#tlephone{
+    /* Teléfono */
+
+
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 840px;
+    top: 426.22px;
+}
+#telephoneInput{
+    
+    position: absolute;
+    width: 299px;
+    height: 35px;
+    left: 840px;
+    top: 455.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+}
+#motivo{
+    /* Motivo */
+
+
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 524px;
+    top: 511.22px;
+}
+#motivoInput{
+    position: absolute;
+    width: 298px;
+    height: 35px;
+    left: 524px;
+    top: 539.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+}
+#consulta{
+    /* Consulta */
+
+
+    position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 524px;
+    top: 595.22px;
+}
+#consultaInput{
+    /* Rectangle 15 */
+
+
+    position: absolute;
+    width: 615px;
+    height: 208px;
+    left: 524px;
+    top: 623.22px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 29px;
+}
+#submit{
+    position: absolute;
+    width: 161px;
+    height: 37px;
+    left: 569px;
+    top: 848px;
+
+    background: #E5E5E5;
+}
+.banner{
+    /* Rectangle 2 */
+  
+    position: absolute;
+    width: 989.17px;
+    height: 446.17px;
+    left: 150px;
+    top: 134.42px;
+  
+    background: url("Images/Rectangle\ 2.jpg"), #C4C4C4;
+    background-size:cover;
+  }
+  .bannerLegend{
+    /* Descubrí el sabor de comer bien */
+  
+  
+    position: absolute;
+    width: 431.69px;
+    height: 190.96px;
+    left: 227.83px;
+    top: 262.03px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 90.3%;
+    /* or 59px */
+  
+  
+    color: #27566A;
+  }
+  .miniBanner{
+    /* MINI-BANNER1 1 */
+  
+  
+    position: absolute;
+    width: 487px;
+    height: 274px;
+    left: 149px;
+    top: 641px;
+  
+    background: url("Images/MINI-BANNER1\ 1.png");
+    border-radius: 21px;
+  }
+  .miniBanner1{
+    /* MINI-BANNER2 1 */
+  
+  
+    position: absolute;
+    width: 487px;
+    height: 274px;
+    left: 652px;
+    top: 641px;
+  
+    background: url("Images/MINI-BANNER2\ 1.png");
+    border-radius: 21px;
+  }
+  
+  .lineCatHomeL{
+    /* Line 2 */
+  
+  
+    position: absolute;
+    width: 376.43px;
+    height: 3.79px;
+    left: 150.51px;
+    top: 984.68px;
+    
+    border: 1px solid #A5A5A5;
+    transform: rotate(0.58deg);
+  }
+  .titleCatHome{
+    /* Categorías */
+  
+  
+    position: absolute;
+    width: 189.59px;
+    height: 47.4px;
+    left: 545.61px;
+    top: 965px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  .lineCatHomeR{
+    /* Line 4 */
+  
+  
+  
+    position: absolute;
+    width: 376.43px;
+    height: 3.79px;
+    left: 762.59px;
+    top: 985.05px;
+  
+    border: 1px solid #A5A5A5;
+    transform: rotate(0.58deg);
+  }
+  .rectangle1{
+        /* Rectangle 3 */
+    position: absolute;
+    width: 234.4px;
+    height: 285.08px;
+    left: 150px;
+    top: 1059px;
+        
+    background: #F7F7F7;
+  }
+  .rectangle2{
+    /* Rectangle 4 */
+  
+  
+    position: absolute;
+    width: 234.4px;
+    height: 285.08px;
+    left: 401.59px;
+    top: 1059px;
+    
+    background: #F7F7F7;
+  }
+  .rectangle3{
+  
+  
+    position: absolute;
+    width: 234.4px;
+    height: 285.08px;
+    left: 653.18px;
+    top: 1059px;
+  
+    background: #F7F7F7;
+  }
+  .rectangle4{
+    position: absolute;
+    width: 234.4px;
+    height: 285.08px;
+    left: 904.77px;
+    top: 1059px;
+  
+    background: #F7F7F7;
+  }
+  
+  .photo1{
+    position: absolute;
+    width: 207px;
+    height: 248px;
+    left: 174px;
+    top: 1070.08px;
+    
+    background: url("Images/cereales\ png.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  .photo2{
+    /* img_nueces-5 1 */
+  
+  
+    position: absolute;
+    width: 227px;
+    height: 146px;
+    left: 406px;
+    top: 1116.08px;
+    
+    background: url("Images/Frutos\ Secos\ png.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+  }
+  .imagenes{
+    display: flex;
+    position: absolute;
+    top: 1020px;
+    left: 75px;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-around;
+  
+  }
+  
+  .photo3{
+    position: absolute;
+    width: 182px;
+    height: 183px;
+    left: 682px;
+    top: 1091.08px;
+    
+    background: url("Images/Mix\ y\ Semillas\ png.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+  
+  }
+  .photo4{
+    position: absolute;
+    width: 192px;
+    height: 191px;
+    left: 928px;
+    top: 1084.08px;
+    
+    background: url("Images/Frutas\ Deshidratadas\ png.png");
+    background-blend-mode: multiply;
+    background-size:cover;
+  }
+  .legend1{
+    position: absolute;
+    width: 81.45px;
+    height: 27.15px;
+    left: 226.02px;
+    top: 1290.68px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  .legend2{
+    position: absolute;
+    width: 114.03px;
+    height: 27.15px;
+    left: 461.32px;
+    top: 1290.68px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  .legend3{
+    position: absolute;
+    width: 124.89px;
+    height: 27.15px;
+    left: 707.48px;
+    top: 1290.68px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  .legend4{
+    
+    position: absolute;
+    width: 193.67px;
+    height: 27.15px;
+    left: 924.68px;
+    top: 1290.68px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  .leftVendidos{
+    position: absolute;
+    width: 365.51px;
+    height: 3.68px;
+    left: 150.51px;
+    top: 1428.79px;
+  
+    border: 1px solid #A5A5A5;
+    transform: rotate(0.58deg);
+  }
+  .headerVendidos{
+    /* Más vendidos */
+  
+  
+    position: absolute;
+    width: 267px;
+    height: 47px;
+    left: 511px;
+    top: 1409px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  .rightVendidos{
+    position: absolute;
+    width: 364.48px;
+    height: 3.67px;
+    left: 774.54px;
+    top: 1429.17px;
+  
+    border: 1px solid #A5A5A5;
+    transform: rotate(0.58deg);
+  }
+  #rectangle1{
+    position: absolute;
+    width: 234px;
+    height: 308px;
+    left: 150px;
+    top: 1507px;
+  
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+  }
+  #line1{
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    left: 150px;
+    top: 1716px;
+  
+    border: 1px solid #C3C3C3;
+  }
+  #foto1{
+    position: absolute;
+    width: 210px;
+    height: 177px;
+    left: 160px;
+    top: 1531px;
+  
+    background: url("Images/nuez\ mariposa\ 1.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  #product1{
+    position: absolute;
+    width: 114px;
+    height: 24px;
+    left: 210px;
+    top: 1730px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  
+    color: #595959;
+   
+  }
+  section div a{
+    text-decoration:none;
+  }
+  #precio1{
+    position: absolute;
+    width: 45px;
+    height: 31px;
+    left: 245px;
+    top: 1760px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+  
+    /* Verde */
+  
+    color: #9BC617;
+  }
+  #cantidad1{
+    position: absolute;
+    width: 76px;
+    height: 11px;
+    left: 229px;
+    top: 1792px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  #rectangle2{
+    position: absolute;
+    width: 235px;
+    height: 308px;
+    left: 402px;
+    top: 1507px;
+  
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+  }
+  #line2{
+    position: absolute;
+    width: 235px;
+    height: 0px;
+    left: 402px;
+    top: 1716px;
+  
+    border: 1px solid #C3C3C3;
+  }
+  #foto2{
+    position: absolute;
+    width: 217px;
+    height: 184px;
+    left: 410px;
+    top: 1531px;
+  
+    background: url("Images/nuez\ mariposa\ 2.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  #product2{
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 448px;
+    top: 1730px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  #precio2{
+    position: absolute;
+    width: 37px;
+    height: 31px;
+    left: 499px;
+    top: 1756px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+  
+    /* Verde */
+  
+    color: #9BC617;
+  }
+  #cantidad2{
+    position: absolute;
+    width: 76px;
+    height: 11px;
+    left: 481px;
+    top: 1792px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  
+  }
+  #rectangle3{
+    position: absolute;
+    width: 234px;
+    height: 308px;
+    left: 653px;
+    top: 1507px;
+  
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+  }
+  #line3{
+    position: absolute;
+    width: 234px;
+    height: 0px;
+    left: 653px;
+    top: 1716px;
+  
+    border: 1px solid #C3C3C3;
+  }
+  #foto3{
+    position: absolute;
+    width: 181px;
+    height: 166px;
+    left: 685px;
+    top: 1542px;
+  
+    background: url("Images/nuez\ mariposa\ 3.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  #product3{
+    position: absolute;
+    width: 168px;
+    height: 24px;
+    left: 686px;
+    top: 1730px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  #precio3{
+    position: absolute;
+    width: 48px;
+    height: 36px;
+    left: 747px;
+    top: 1756px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+  
+    /* Verde */
+  
+    color: #9BC617;
+  }
+  #cantidad3{
+    position: absolute;
+    width: 74px;
+    height: 11px;
+    left: 733px;
+    top: 1792px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  #rectangle4{
+    position: absolute;
+    width: 235px;
+    height: 308px;
+    left: 904px;
+    top: 1507px;
+  
+    border: 1px solid #C3C3C3;
+    box-sizing: border-box;
+    border-radius: 21px;
+  }
+  #line4{
+    position: absolute;
+    width: 235px;
+    height: 0px;
+    left: 904px;
+    top: 1716px;
+  
+    border: 1px solid #C3C3C3;
+  }
+  #foto4{
+    position: absolute;
+    width: 219px;
+    height: 182px;
+    left: 912px;
+    top: 1528px;
+  
+    background: url("Images/nuez\ mariposa\ 4.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  #product4{
+    position: absolute;
+    width: 159px;
+    height: 18px;
+    left: 943px;
+    top: 1730px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+  
+    color: #595959;
+  }
+  #precio4{
+    position: absolute;
+    width: 47px;
+    height: 31px;
+    left: 997px;
+    top: 1756px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+  
+    /* Verde */
+  
+    color: #9BC617;
+  }
+  #cantidad4{
+    position: absolute;
+    width: 76px;
+    height: 11px;
+    left: 983px;
+    top: 1792px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  
+  }
+  .newsletter{
+    position: absolute;
+    width: 1290px;
+    height: 260px;
+    left: 0px;
+    top: 1880px;
+    
+    background: #F0F0F0;
+  }
+  .newsTitle{
+    /* NEWSLETTER */
+  
+  
+    position: absolute;
+    width: 168px;
+    height: 24px;
+    left: 561px;
+    top: 1932px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  
+    color: #27566A;
+  }
+  .newsSuscribite{
+    /* ¡Suscribite y enterate de todas las novedades! */
+  
+  
+    position: absolute;
+    width: 477px;
+    height: 30px;
+    left: 407px;
+    top: 1961px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #27566A;
+  }
+  .newsLegend{
+    /* Promociones, ofertas, sorteos, regalos exclusivos, y más. */
+  
+  
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 470px;
+    top: 1996px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  
+    color: #27566A;
+  }
+  .newsMail{
+    position: absolute;
+    width: 404px;
+    height: 36px;
+    left: 437px;
+    top: 2048px;
+  
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+  .leftTitleUs{
+    /* Line 1 */
+    position: absolute;
+    width: 376.61px;
+    height: 1.08px;
+    left: 150.04px;
+    top: 180.69px;
+  
+    background: #595959;
+    border-radius: 1.5px;
+  }
+  .rightTitleUs{
+    /* Line 2 */
+    position: absolute;
+    width: 376.61px;
+    height: 1.08px;
+    left: 762.41px;
+    top: 181.06px;
+  
+    background: #595959;
+    border-radius: 1.5px;
+  }
+  .titleUs{
+    /* ¡Conocenos! */
+  
+  
+    position: absolute;
+    width: 230.72px;
+    height: 47.42px;
+    left: 529px;
+    top: 161px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  .parrafoNosotros{
+      
+    position: absolute;
+    width: 606px;
+    height: 282px;
+    left: 342px;
+    top: 266px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 142.69%;
+    /* or 20px */
+  
+    text-align: center;
+  
+    color: #595959;
+  
+  }
+  .emiId{
+    /* Emiliano CancinosCo-founder */
+  
+  
+    position: absolute;
+    width: 201px;
+    height: 55px;
+    left: 392px;
+    top: 837px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    
+    font-size: 15px;
+    line-height: 142.69%;
+    /* or 21px */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  .gabiId{
+    position: absolute;
+    width: 201px;
+    height: 55px;
+    left: 701px;
+    top: 837px;
+  
+    font-family: Roboto;
+    font-style: normal;
+  
+    font-size: 15px;
+    line-height: 142.69%;
+    /* or 21px */
+  
+    text-align: center;
+  
+    color: #595959;
+  }
+  #imagenEmi{
+    position:absolute;
+    top: 606.33px;
+    left: 392px
+    
+  }
+  #imagenGabi{
+    position: absolute;
+    left: 700px;
+    top: 606.69px;
+  }
