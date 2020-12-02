@@ -28,7 +28,7 @@ nav a:hover{
     left: 163.94px;
     top: 39px;
 
-    background: url("logo-web\ 1.png");
+    background: url("/images/logoweb.png");
     background-size: cover;
 }
 
@@ -326,7 +326,7 @@ nav a:hover{
     left: 150px;
     top: 134px;
 
-    background: url("Images/banner-ppal-web\ 1.png");
+    background: url("/images/banner-ppal-web\ 1.png");
     background-size:cover;
 }
 .titleP{
@@ -528,7 +528,7 @@ nav a:hover{
     left: 341px;
     top: 786px;
 
-    background: url("Images/nuez\ mariposa\ 1.png");
+    background: url("/images/nuez\ mariposa\ 1.png");
     background-blend-mode: multiply;
     background-size:cover;
 }
@@ -554,6 +554,8 @@ nav a:hover{
 }
 .rectangle__product--1:hover{
     transform: scale(1.2 ,1.2);
+    text-decoration:none;
+    color: #595959;
 }
 .rectangle__precio--1{
     /* $109 */
@@ -616,7 +618,7 @@ nav a:hover{
     left: 545px;
     top: 786px;
 
-    background: url("Images/nuez\ mariposa\ 2.png");
+    background: url("/images/nuez\ mariposa\ 2.png");
     background-blend-mode: multiply;
     background-size:cover;
 }
@@ -652,6 +654,8 @@ nav a:hover{
 }
 .rectangle__product--2:hover{
     transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
 }
 .rectangle__precio--2{
     /* $113 */
@@ -722,7 +726,7 @@ nav a:hover{
     left: 769px;
     top: 795px;
 
-    background: url("Images/nuez\ mariposa\ 3.png");
+    background: url("/images/nuez\ mariposa\ 3.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -748,6 +752,8 @@ nav a:hover{
 }
 .rectangle__product--3:hover{
     transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
 }
 .rectangle__precio--3{
     /* $142 */
@@ -820,7 +826,7 @@ nav a:hover{
     left: 954px;
     top: 783px;
 
-    background: url("Images/nuez\ mariposa\ 4.png");
+    background: url("/images/nuez\ mariposa\ 4.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -846,6 +852,8 @@ nav a:hover{
 }
 .rectangle__product--4:hover{
     transform: scale(1.2 , 1.2);
+    text-decoration:none;
+    color: #595959;
 }
 .rectangle__precio--4{
     /* $207 */
@@ -914,7 +922,7 @@ nav a:hover{
     left: 341px;
     top: 1051px;
 
-    background: url("Images/nuez\ mariposa\ 5.png");
+    background: url("/images/nuez\ mariposa\ 5.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -1005,7 +1013,7 @@ nav a:hover{
     left: 545px;
     top: 1051px;
 
-    background: url("Images/nuez\ mariposa\ 6.png");
+    background: url("/images/nuez\ mariposa\ 6.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -1094,7 +1102,7 @@ nav a:hover{
     left: 752px;
     top: 1061px;
 
-    background: url("Images/nuez\ mariposa\ 7.png");
+    background: url("/images/nuez\ mariposa\ 7.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -1181,7 +1189,7 @@ nav a:hover{
     left: 965px;
     top: 1049px;
 
-    background: url("Images/nuez\ mariposa\ 8.png");
+    background: url("/images/nuez\ mariposa\ 8.png");
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -1602,39 +1610,8 @@ button{
 
     background: #E5E5E5;
 }
-.banner{
-    /* Rectangle 2 */
-  
-    position: absolute;
-    width: 989.17px;
-    height: 446.17px;
-    left: 150px;
-    top: 134.42px;
-  
-    background: url("Images/Rectangle\ 2.jpg"), #C4C4C4;
-    background-size:cover;
-  }
-  .bannerLegend{
-    /* Descubrí el sabor de comer bien */
-  
-  
-    position: absolute;
-    width: 431.69px;
-    height: 190.96px;
-    left: 227.83px;
-    top: 262.03px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 65px;
-    line-height: 90.3%;
-    /* or 59px */
-  
-  
-    color: #27566A;
-  }
-  .miniBanner{
+
+.miniBanner{
     /* MINI-BANNER1 1 */
   
   
@@ -1647,7 +1624,7 @@ button{
     background: url("Images/MINI-BANNER1\ 1.png");
     border-radius: 21px;
   }
-  .miniBanner1{
+.miniBanner1{
     /* MINI-BANNER2 1 */
   
   
@@ -1759,7 +1736,7 @@ button{
     left: 174px;
     top: 1070.08px;
     
-    background: url("Images/cereales\ png.png");
+    background: url("/images/cereales\ png.png");
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -1773,7 +1750,7 @@ button{
     left: 406px;
     top: 1116.08px;
     
-    background: url("Images/Frutos\ Secos\ png.png");
+    background: url("/images/Frutos\ Secos\ png.png");
     background-blend-mode: multiply;
     background-size:cover;
   }
@@ -1795,7 +1772,7 @@ button{
     left: 682px;
     top: 1091.08px;
     
-    background: url("Images/Mix\ y\ Semillas\ png.png");
+    background: url("/images/Mix\ y\ Semillas\ png.png");
     background-blend-mode: multiply;
     background-size:cover;
   
@@ -1807,7 +1784,7 @@ button{
     left: 928px;
     top: 1084.08px;
     
-    background: url("Images/Frutas\ Deshidratadas\ png.png");
+    background: url("/images/Frutas\ Deshidratadas\ png.png");
     background-blend-mode: multiply;
     background-size:cover;
   }
@@ -1942,7 +1919,7 @@ button{
     left: 160px;
     top: 1531px;
   
-    background: url("Images/nuez\ mariposa\ 1.png");
+    background: url("/images/nuez\ mariposa\ 1.png");
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -2029,7 +2006,7 @@ button{
     left: 410px;
     top: 1531px;
   
-    background: url("Images/nuez\ mariposa\ 2.png");
+    background: url("/images/nuez\ mariposa\ 2.png");
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -2113,7 +2090,7 @@ button{
     left: 685px;
     top: 1542px;
   
-    background: url("Images/nuez\ mariposa\ 3.png");
+    background: url("/images/nuez\ mariposa\ 3.png");
     background-blend-mode: multiply;
     background-size: cover;
   }
@@ -2196,7 +2173,7 @@ button{
     left: 912px;
     top: 1528px;
   
-    background: url("Images/nuez\ mariposa\ 4.png");
+    background: url("/images/nuez\ mariposa\ 4.png");
     background-blend-mode: multiply;
     background-size: cover;
   }

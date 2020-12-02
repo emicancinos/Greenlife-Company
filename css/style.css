@@ -1,98 +1,66 @@
 @charset "UTF-8";
-.logo {
+nav {
+  background-color: white;
+  font-size: 13px;
+  line-height: 19px;
+  color: #777777;
+  font-family: Poppins; }
+
+nav a {
+  text-decoration: none;
+  color: #777777; }
+
+nav a:hover {
+  /* Verde */
+  color: #9BC617; }
+
+.nav_logo {
   /* logo-web 1 */
   position: absolute;
   width: 99.44px;
   height: 67.19px;
   left: 163.94px;
   top: 39px;
-  background: url("logo-web 1.png");
+  background: url("/images/logoweb.png");
   background-size: cover; }
 
-nav {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-evenly; }
+.nav_home {
+  /* Home */
+  position: absolute;
+  width: 57.33px;
+  height: 21.5px;
+  left: 450.6px;
+  top: 70.35px; }
 
-.dropdown-item:hover {
-  background-color: green; }
-
-footer {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-evenly; }
-
-.productos {
+.nav_productos {
   /* Productos */
   position: absolute;
   width: 72.56px;
   height: 21.5px;
   left: 525.85px;
   top: 70.35px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 19px;
-  color: #777777;
   text-decoration: underline; }
 
-nav a {
-  text-decoration: none; }
+.dropdown-item:hover {
+  background-color: green; }
 
-nav a:hover {
-  /* Verde */
-  color: #9BC617; }
-
-footer a {
-  text-decoration: none; }
-
-.home {
-  /* Home */
-  position: absolute;
-  width: 57.33px;
-  height: 21.5px;
-  left: 450.6px;
-  top: 70.35px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 19px;
-  color: #777777; }
-
-.nosotros {
+.nav_nosotros {
   /* Nosotros */
   position: absolute;
   width: 77.94px;
   height: 21.5px;
   left: 631px;
-  top: 70px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 19px;
-  color: #777777; }
+  top: 70px; }
 
-.contacto {
+.nav_contacto {
   /* Contacto */
   position: absolute;
   width: 72.44px;
   height: 19.98px;
   left: 716px;
-  top: 70px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 19px;
-  /* identical to box height */
-  color: #777777; }
+  top: 70px; }
 
-.search {
+.nav_search {
   /* Rectangle 1 */
   position: absolute;
   width: 166.62px;
@@ -119,23 +87,13 @@ footer a {
   height: 220.38px;
   left: 0px;
   top: 2234px;
-  /* Azul */
-  background: #27566A; }
-
-.copyright {
-  /* legales */
-  position: absolute;
-  width: 516px;
-  height: 22.58px;
-  left: 387px;
-  top: 2466.47px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  color: #777777; }
+  font-size: 16px;
+  line-height: 24px;
+  /* Azul */
+  background: #27566A; }
 
 .leftFootUl {
   /* Almacén Natural */
@@ -263,17 +221,32 @@ footer a {
   line-height: 24px;
   color: #FFFFFF; }
 
-.banner {
+.copyright {
+  /* legales */
+  position: absolute;
+  width: 516px;
+  height: 22.58px;
+  left: 387px;
+  top: 2466.47px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #777777; }
+
+.bannerProductos {
   /* banner-ppal-web 1 */
   position: absolute;
   width: 989px;
   height: 445px;
   left: 150px;
   top: 134px;
-  background: url("Images/banner-ppal-web 1.png");
+  background: url("/images/banner-ppal-web 1.png");
   background-size: cover; }
 
-.title {
+.titleP {
   /* Productos */
   position: absolute;
   width: 187.76px;
@@ -288,7 +261,7 @@ footer a {
   text-align: center;
   color: #595959; }
 
-.left {
+.leftP {
   /* Rectangle 8 */
   position: absolute;
   width: 376.97px;
@@ -298,7 +271,7 @@ footer a {
   background: #595959;
   border-radius: 1.5px; }
 
-.right {
+.rightP {
   /* Rectangle 9 */
   position: absolute;
   width: 376.97px;
@@ -308,7 +281,7 @@ footer a {
   background: #595959;
   border-radius: 1.5px; }
 
-.aside {
+.asideP {
   position: absolute;
   font-family: Poppins;
   font-style: normal;
@@ -318,14 +291,14 @@ footer a {
   /* identical to box height */
   color: #595959; }
 
-aside a {
+.asideP a {
   text-decoration: none;
   color: #595959; }
 
-aside a:hover {
+.asideP a:hover {
   transform: scale(1.2, 1.2); }
 
-#titleAside {
+.asideP__categorias {
   /* Categorías */
   position: absolute;
   width: 105px;
@@ -340,14 +313,14 @@ aside a:hover {
   /* identical to box height */
   color: #595959; }
 
-#cereales {
+.asideP__categorias--cereales {
   position: absolute;
   width: 61px;
   height: 20px;
   left: 150px;
   top: 766px; }
 
-#frutosSecos {
+.asideP__categorias--frutos {
   /* Frutos Secos */
   position: absolute;
   width: 86px;
@@ -355,7 +328,7 @@ aside a:hover {
   left: 150px;
   top: 798px; }
 
-#mixSemillas {
+.asideP__categorias--mix {
   /* Mix y Semillas */
   position: absolute;
   width: 94px;
@@ -363,7 +336,7 @@ aside a:hover {
   left: 150px;
   top: 831px; }
 
-#frutasDes {
+.asideP__categorias--deshidratadas {
   /* Frutas Deshidratadas */
   position: absolute;
   width: 146px;
@@ -371,7 +344,7 @@ aside a:hover {
   left: 150px;
   top: 863px; }
 
-#legumbres {
+.asideP__categorias--legumbres {
   /* Legumbres */
   position: absolute;
   width: 76px;
@@ -379,7 +352,7 @@ aside a:hover {
   left: 150px;
   top: 896px; }
 
-#conservas {
+.asideP__categorias--conservas {
   /* Conservas */
   position: absolute;
   width: 73px;
@@ -387,7 +360,7 @@ aside a:hover {
   left: 150px;
   top: 928px; }
 
-#leches {
+.asideP__categorias--leches {
   /* Leches Vegetales */
   position: absolute;
   width: 119px;
@@ -395,7 +368,7 @@ aside a:hover {
   left: 150px;
   top: 961px; }
 
-#dulces {
+.asideP__categorias--dulces {
   /* Dulces */
   position: absolute;
   width: 46px;
@@ -403,7 +376,11 @@ aside a:hover {
   left: 150px;
   top: 993px; }
 
-#rectangle1 {
+.rectangle {
+  font-family: Poppins;
+  font-style: normal; }
+
+.rectangle__border--1 {
   /* Rectangle 3 */
   position: absolute;
   width: 191px;
@@ -414,7 +391,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line1 {
+.rectangle__line--1 {
   /* Line 5 */
   position: absolute;
   width: 191px;
@@ -423,18 +400,18 @@ aside a:hover {
   top: 937px;
   border: 1px solid #C3C3C3; }
 
-#foto1 {
+.rectangle__foto--1 {
   /* nuez mariposa 1 */
   position: absolute;
   width: 172px;
   height: 144px;
   left: 341px;
   top: 786px;
-  background: url("Images/nuez mariposa 1.png");
+  background: url("/images/nuez mariposa 1.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product1 {
+.rectangle__product--1 {
   /* Nuez Mariposa */
   position: absolute;
   width: 93px;
@@ -450,10 +427,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#product1:hover {
-  transform: scale(1.2, 1.2); }
+.rectangle__product--1:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
 
-#precio1 {
+.rectangle__precio--1 {
   /* $109 */
   position: absolute;
   width: 37px;
@@ -469,7 +448,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad1 {
+.rectangle__cantidad--1 {
   /* A partir de 100gr */
   position: absolute;
   width: 61px;
@@ -484,7 +463,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle2 {
+.rectangle__border--2 {
   /* Rectangle 2 */
   position: absolute;
   width: 192px;
@@ -495,18 +474,18 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#foto2 {
+.rectangle__foto--2 {
   /* nuez mariposa 2 */
   position: absolute;
   width: 177px;
   height: 150px;
   left: 545px;
   top: 786px;
-  background: url("Images/nuez mariposa 2.png");
+  background: url("/images/nuez mariposa 2.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#line2 {
+.rectangle__line--2 {
   /* Line 2 */
   position: absolute;
   width: 192px;
@@ -515,7 +494,7 @@ aside a:hover {
   top: 937px;
   border: 1px solid #C3C3C3; }
 
-#product2 {
+.rectangle__product--2 {
   /* Castañas de Cajú */
   position: absolute;
   width: 116px;
@@ -531,10 +510,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#product2:hover {
-  transform: scale(1.2, 1.2); }
+.rectangle__product--2:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
 
-#precio2 {
+.rectangle__precio--2 {
   /* $113 */
   position: absolute;
   width: 30px;
@@ -550,7 +531,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad2 {
+.rectangle__cantidad--2 {
   /* A partir de 100gr */
   position: absolute;
   width: 62px;
@@ -565,7 +546,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle3 {
+.rectangle__border--3 {
   /* Rectangle 11 */
   position: absolute;
   width: 191px;
@@ -576,7 +557,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line3 {
+.rectangle__line--3 {
   /* Line 3 */
   position: absolute;
   width: 191px;
@@ -585,18 +566,18 @@ aside a:hover {
   top: 937px;
   border: 1px solid #C3C3C3; }
 
-#foto3 {
+.rectangle__foto--3 {
   /* nuez mariposa 3 */
   position: absolute;
   width: 148px;
   height: 135px;
   left: 769px;
   top: 795px;
-  background: url("Images/nuez mariposa 3.png");
+  background: url("/images/nuez mariposa 3.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product3 {
+.rectangle__product--3 {
   /* Almendras non pareil */
   position: absolute;
   width: 137px;
@@ -612,10 +593,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#product3:hover {
-  transform: scale(1.2, 1.2); }
+.rectangle__product--3:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
 
-#precio3 {
+.rectangle__precio--3 {
   /* $142 */
   position: absolute;
   width: 34px;
@@ -631,7 +614,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad3 {
+.rectangle__cantidad--3 {
   /* A partir de 100gr */
   position: absolute;
   width: 61px;
@@ -646,7 +629,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle4 {
+.rectangle__border--4 {
   /* Rectangle 4 */
   position: absolute;
   width: 192px;
@@ -657,7 +640,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line4 {
+.rectangle__line--4 {
   /* Line 4 */
   position: absolute;
   width: 192px;
@@ -666,18 +649,18 @@ aside a:hover {
   top: 937px;
   border: 1px solid #C3C3C3; }
 
-#foto4 {
+.rectangle__foto--4 {
   /* pistachos c/cascara 4 */
   position: absolute;
   width: 179px;
   height: 149px;
   left: 954px;
   top: 783px;
-  background: url("Images/nuez mariposa 4.png");
+  background: url("/images/nuez mariposa 4.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product4 {
+.rectangle__product--4 {
   /* Pistachos c/cáscara */
   position: absolute;
   width: 130px;
@@ -693,10 +676,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#product4:hover {
-  transform: scale(1.2, 1.2); }
+.rectangle__product--4:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
 
-#precio4 {
+.rectangle__precio--4 {
   /* $207 */
   position: absolute;
   width: 38px;
@@ -712,7 +697,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad4 {
+.rectangle__cantidad--4 {
   /* A partir de 100gr */
   position: absolute;
   width: 62px;
@@ -727,7 +712,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle5 {
+.rectangle__border--5 {
   position: absolute;
   width: 191px;
   height: 251px;
@@ -737,7 +722,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line5 {
+.rectangle__line--5 {
   position: absolute;
   width: 191px;
   height: 0px;
@@ -745,17 +730,17 @@ aside a:hover {
   top: 1202px;
   border: 1px solid #C3C3C3; }
 
-#foto5 {
+.rectangle__foto--5 {
   position: absolute;
   width: 172px;
   height: 144px;
   left: 341px;
   top: 1051px;
-  background: url("Images/nuez mariposa 5.png");
+  background: url("/images/nuez mariposa 5.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product5 {
+.rectangle__product--5 {
   /* Maní con cáscara */
   position: absolute;
   width: 151px;
@@ -771,7 +756,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#precio5 {
+.rectangle__product--5:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
+
+.rectangle__precio--5 {
   position: absolute;
   width: 37px;
   height: 25px;
@@ -786,7 +776,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad5 {
+.rectangle__cantidad--5 {
   position: absolute;
   width: 61px;
   height: 9px;
@@ -800,7 +790,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle6 {
+.rectangle__border--6 {
   position: absolute;
   width: 192px;
   height: 251px;
@@ -810,7 +800,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line6 {
+.rectangle__line--6 {
   position: absolute;
   width: 192px;
   height: 0px;
@@ -818,17 +808,17 @@ aside a:hover {
   top: 1202px;
   border: 1px solid #C3C3C3; }
 
-#foto6 {
+.rectangle__foto--6 {
   position: absolute;
   width: 177px;
   height: 133px;
   left: 545px;
   top: 1051px;
-  background: url("Images/nuez mariposa 6.png");
+  background: url("/images/nuez mariposa 6.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product6 {
+.rectangle__product--6 {
   position: absolute;
   width: 164px;
   height: 19px;
@@ -843,7 +833,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#precio6 {
+.rectangle__product--6:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
+
+.rectangle__precio--6 {
   position: absolute;
   width: 30px;
   height: 25px;
@@ -858,7 +853,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad6 {
+.rectangle__cantidad--6 {
   position: absolute;
   width: 62px;
   height: 9px;
@@ -872,7 +867,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle7 {
+.rectangle__border--7 {
   position: absolute;
   width: 191px;
   height: 251px;
@@ -882,7 +877,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line7 {
+.rectangle__line--7 {
   position: absolute;
   width: 191px;
   height: 0px;
@@ -890,17 +885,17 @@ aside a:hover {
   top: 1202px;
   border: 1px solid #C3C3C3; }
 
-#foto7 {
+.rectangle__foto--7 {
   position: absolute;
   width: 174px;
   height: 124px;
   left: 752px;
   top: 1061px;
-  background: url("Images/nuez mariposa 7.png");
+  background: url("/images/nuez mariposa 7.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product7 {
+.rectangle__product--7 {
   position: absolute;
   width: 137px;
   height: 19px;
@@ -915,7 +910,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#precio7 {
+.rectangle__product--7:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
+
+.rectangle__precio--7 {
   position: absolute;
   width: 34px;
   height: 25px;
@@ -930,7 +930,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad7 {
+.rectangle__cantidad--7 {
   position: absolute;
   width: 61px;
   height: 9px;
@@ -944,7 +944,7 @@ aside a:hover {
   text-align: center;
   color: #595959; }
 
-#rectangle8 {
+.rectangle__border--8 {
   position: absolute;
   width: 192px;
   height: 251px;
@@ -954,7 +954,7 @@ aside a:hover {
   box-sizing: border-box;
   border-radius: 21px; }
 
-#line8 {
+.rectangle__line--8 {
   position: absolute;
   width: 192px;
   height: 0px;
@@ -962,17 +962,17 @@ aside a:hover {
   top: 1202px;
   border: 1px solid #C3C3C3; }
 
-#foto8 {
+.rectangle__foto--8 {
   position: absolute;
   width: 170px;
   height: 142px;
   left: 965px;
   top: 1049px;
-  background: url("Images/nuez mariposa 8.png");
+  background: url("/images/nuez mariposa 8.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
-#product8 {
+.rectangle__product--8 {
   position: absolute;
   width: 130px;
   height: 14px;
@@ -987,7 +987,12 @@ aside a:hover {
   color: #595959;
   text-decoration: none; }
 
-#precio8 {
+.rectangle__product--8:hover {
+  transform: scale(1.2, 1.2);
+  text-decoration: none;
+  color: #595959; }
+
+.rectangle__precio--8 {
   position: absolute;
   width: 38px;
   height: 25px;
@@ -1002,7 +1007,7 @@ aside a:hover {
   /* Verde */
   color: #9BC617; }
 
-#cantidad8 {
+.rectangle__cantidad--8 {
   position: absolute;
   width: 62px;
   height: 9px;
@@ -1033,7 +1038,7 @@ button {
   text-align: center;
   color: #FFFFFF; }
 
-.left {
+.leftContactanos {
   /* line 1  */
   position: absolute;
   width: 361px;
@@ -1043,7 +1048,7 @@ button {
   background: #595959;
   border-radius: 1.5px; }
 
-.right {
+.rightContactanos {
   /* line 2 */
   position: absolute;
   width: 351px;
@@ -1053,7 +1058,7 @@ button {
   background: #595959;
   border-radius: 1.5px; }
 
-.title {
+.contactanos {
   /* ¡Contactános! */
   position: absolute;
   width: 239.79px;
@@ -1311,31 +1316,6 @@ button {
   top: 848px;
   background: #E5E5E5; }
 
-.banner {
-  /* Rectangle 2 */
-  position: absolute;
-  width: 989.17px;
-  height: 446.17px;
-  left: 150px;
-  top: 134.42px;
-  background: url("Images/Rectangle 2.jpg"), #C4C4C4;
-  background-size: cover; }
-
-.bannerLegend {
-  /* Descubrí el sabor de comer bien */
-  position: absolute;
-  width: 431.69px;
-  height: 190.96px;
-  left: 227.83px;
-  top: 262.03px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 65px;
-  line-height: 90.3%;
-  /* or 59px */
-  color: #27566A; }
-
 .miniBanner {
   /* MINI-BANNER1 1 */
   position: absolute;
@@ -1432,7 +1412,7 @@ button {
   height: 248px;
   left: 174px;
   top: 1070.08px;
-  background: url("Images/cereales png.png");
+  background: url("/images/cereales png.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1443,7 +1423,7 @@ button {
   height: 146px;
   left: 406px;
   top: 1116.08px;
-  background: url("Images/Frutos Secos png.png");
+  background: url("/images/Frutos Secos png.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1462,7 +1442,7 @@ button {
   height: 183px;
   left: 682px;
   top: 1091.08px;
-  background: url("Images/Mix y Semillas png.png");
+  background: url("/images/Mix y Semillas png.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1472,7 +1452,7 @@ button {
   height: 191px;
   left: 928px;
   top: 1084.08px;
-  background: url("Images/Frutas Deshidratadas png.png");
+  background: url("/images/Frutas Deshidratadas png.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1589,7 +1569,7 @@ button {
   height: 177px;
   left: 160px;
   top: 1531px;
-  background: url("Images/nuez mariposa 1.png");
+  background: url("/images/nuez mariposa 1.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1664,7 +1644,7 @@ section div a {
   height: 184px;
   left: 410px;
   top: 1531px;
-  background: url("Images/nuez mariposa 2.png");
+  background: url("/images/nuez mariposa 2.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1736,7 +1716,7 @@ section div a {
   height: 166px;
   left: 685px;
   top: 1542px;
-  background: url("Images/nuez mariposa 3.png");
+  background: url("/images/nuez mariposa 3.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
@@ -1808,7 +1788,7 @@ section div a {
   height: 182px;
   left: 912px;
   top: 1528px;
-  background: url("Images/nuez mariposa 4.png");
+  background: url("/images/nuez mariposa 4.png");
   background-blend-mode: multiply;
   background-size: cover; }
 
