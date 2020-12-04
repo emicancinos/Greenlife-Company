@@ -1455,599 +1455,196 @@ button{
     border-radius: 21px;
   }
   
-  .lineCatHomeL{
-    /* Line 2 */
-  
-  
-    position: absolute;
-    width: 376.43px;
-    height: 3.79px;
-    left: 150.51px;
-    top: 984.68px;
-    
-    border: 1px solid #A5A5A5;
-    transform: rotate(0.58deg);
-  }
-  .titleCatHome{
-    /* Categorías */
-  
-  
-    position: absolute;
-    width: 189.59px;
-    height: 47.4px;
-    left: 545.61px;
-    top: 965px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 48px;
-    /* identical to box height */
-  
-    text-align: center;
-  
-    color: #595959;
-  }
-  .lineCatHomeR{
-    /* Line 4 */
-  
-  
-  
-    position: absolute;
-    width: 376.43px;
-    height: 3.79px;
-    left: 762.59px;
-    top: 985.05px;
-  
-    border: 1px solid #A5A5A5;
-    transform: rotate(0.58deg);
-  }
-  .rectangle1{
-        /* Rectangle 3 */
-    position: absolute;
-    width: 234.4px;
-    height: 285.08px;
-    left: 150px;
-    top: 1059px;
-        
-    background: #F7F7F7;
-  }
-  .rectangle2{
-    /* Rectangle 4 */
-  
-  
-    position: absolute;
-    width: 234.4px;
-    height: 285.08px;
-    left: 401.59px;
-    top: 1059px;
-    
-    background: #F7F7F7;
-  }
-  .rectangle3{
-  
-  
-    position: absolute;
-    width: 234.4px;
-    height: 285.08px;
-    left: 653.18px;
-    top: 1059px;
-  
-    background: #F7F7F7;
-  }
-  .rectangle4{
-    position: absolute;
-    width: 234.4px;
-    height: 285.08px;
-    left: 904.77px;
-    top: 1059px;
-  
-    background: #F7F7F7;
-  }
-  
-  .photo1{
-    position: absolute;
-    width: 207px;
-    height: 248px;
-    left: 174px;
-    top: 1070.08px;
-    
-    background: url("images/cereales\ png.png");
-    background-blend-mode: multiply;
+  /*-------------------------------------------------CATEGORIAS-HOME-----------------------------------*/
+  .home__categorias--1{
+    position:relative;
     background-size: cover;
-  }
-  .photo2{
-    /* img_nueces-5 1 */
-  
-  
-    position: absolute;
     width: 227px;
     height: 146px;
-    left: 406px;
-    top: 1116.08px;
-    
-    background: url("images/Frutos\ Secos\ png.png");
-    background-blend-mode: multiply;
-    background-size:cover;
+    top:50px; 
+    left:5px;
   }
-  .imagenes{
-    display: flex;
-    position: absolute;
-    top: 1020px;
-    left: 75px;
-    align-items: center;
-    align-content: flex-end;
-    justify-content: space-around;
-  
+  .home__categorias--2{
+    position:relative;
+    background-size: cover;
+    width: 227px;
+    height: 146px;
+    top:50px; 
+    left:10px;
   }
-  
-  .photo3{
-    position: absolute;
+  .home__categorias--3{
+    position:relative;
+    background-size: cover;
     width: 182px;
     height: 183px;
-    left: 682px;
-    top: 1091.08px;
+    top:30px; 
+    left:20px;
     
-    background: url("images/Mix\ y\ Semillas\ png.png");
-    background-blend-mode: multiply;
-    background-size:cover;
-  
   }
-  .photo4{
-    position: absolute;
+  .home__categorias--4{
+    position:relative;
+    background-size: cover;
     width: 192px;
     height: 191px;
-    left: 928px;
-    top: 1084.08px;
-    
-    background: url("images/Frutas\ Deshidratadas\ png.png");
-    background-blend-mode: multiply;
-    background-size:cover;
+    top:30px; 
+    left: 15px;
   }
-  .legend1{
-    position: absolute;
-    width: 81.45px;
-    height: 27.15px;
-    left: 226.02px;
-    top: 1290.68px;
+ 
   
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  .legend2{
-    position: absolute;
-    width: 114.03px;
-    height: 27.15px;
-    left: 461.32px;
-    top: 1290.68px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  .legend3{
-    position: absolute;
-    width: 124.89px;
-    height: 27.15px;
-    left: 707.48px;
-    top: 1290.68px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  .legend4{
-    
-    position: absolute;
-    width: 193.67px;
-    height: 27.15px;
-    left: 924.68px;
-    top: 1290.68px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  .leftVendidos{
-    position: absolute;
-    width: 365.51px;
-    height: 3.68px;
-    left: 150.51px;
-    top: 1428.79px;
-  
-    border: 1px solid #A5A5A5;
-    transform: rotate(0.58deg);
-  }
-  .headerVendidos{
-    /* Más vendidos */
-  
-  
-    position: absolute;
-    width: 267px;
-    height: 47px;
-    left: 511px;
-    top: 1409px;
-  
-    font-family: Poppins;
+ 
+  /*---------------------------------------- MAS VENDIDOS- HOME---------------------------*/
+
+  .masvendidos__home--title{
+    font-family: Poppins; 
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
-    text-align: center;
-  
-    color: #595959;
+    color: #595959; 
+    display: flex; 
+    justify-content: space-around;
+    position: relative;
+    left:55px;
   }
-  .rightVendidos{
-    position: absolute;
-    width: 364.48px;
-    height: 3.67px;
-    left: 774.54px;
-    top: 1429.17px;
-  
-    border: 1px solid #A5A5A5;
-    transform: rotate(0.58deg);
-  }
-  #rectangle1{
-    position: absolute;
-    width: 234px;
-    height: 308px;
-    left: 150px;
-    top: 1507px;
-  
+  #masvendidos__rectangle{
+    position:relative;
     border: 1px solid #C3C3C3;
     box-sizing: border-box;
     border-radius: 21px;
+    height: 308px;
+    
+    
   }
-  #line1{
-    position: absolute;
-    width: 234px;
-    height: 0px;
-    left: 150px;
-    top: 1716px;
   
-    border: 1px solid #C3C3C3;
+  .masvendidos__imagen{
+    position: relative;
+    left: 30px;
+    top: 30px;
   }
-  #foto1{
-    position: absolute;
-    width: 210px;
-    height: 177px;
-    left: 160px;
-    top: 1531px;
-  
-    background: url("images/nuez\ mariposa\ 1.png");
-    background-blend-mode: multiply;
-    background-size: cover;
+  #imagen-almendras{
+    left: 50px;
   }
-  #product1{
-    position: absolute;
-    width: 114px;
-    height: 24px;
-    left: 210px;
-    top: 1730px;
-  
+  .masvendidos__line--1{
+    border: 1px solid;
+    color:#C3C3C3; 
+    height: 0px; 
+    position: relative; 
+    top: 30px;
+    width: 283px; 
+    right :15px;
+  }
+  .masvendidos__line--2{
+    border: 1px solid;
+    color:#C3C3C3; 
+    height: 0px; 
+    position: relative; 
+    top: 25px;
+    width: 283px; 
+    right :15px;
+  }
+  .masvendidos__line--3{
+    border: 1px solid;
+    color:#C3C3C3; 
+    height: 0px; 
+    position: relative; 
+    top: 40px;
+    width: 283px; 
+    right :15px;
+  }
+  .masvendidos__link{
+    
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
-  
+
     color: #595959;
-   
+    text-decoration: none;
   }
-  section div a{
-    text-decoration:none;
+  .masvendidos__link:hover{
+    color: #595959;
+    text-decoration: none;
+    transform: scale(1.2, 1.2);     
   }
-  #precio1{
-    position: absolute;
-    width: 45px;
-    height: 31px;
-    left: 245px;
-    top: 1760px;
-  
+  #link-1{
+    position: relative; 
+    top: 45px; 
+    left: 75px;
+    transform: scale(1.2 , 1.2); 
+  }
+  #link-2{
+    position: relative; 
+    top: 40px; 
+    left: 65px;
+  }
+  #link-3{
+    position: relative; 
+    top: 54px; 
+    left: 48px;
+  }
+  #link-4{
+    position: relative; 
+    top: 40px; 
+    left: 55px;
+  }
+  .masvendidos__precio{
+    position: relative;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
     line-height: 28px;
     text-align: center;
-  
+    
     /* Verde */
-  
-    color: #9BC617;
+    
+    color:#9BC617;
   }
-  #cantidad1{
-    position: absolute;
-    width: 76px;
-    height: 11px;
-    left: 229px;
-    top: 1792px;
+    
+
   
+  #precio-1{
+    
+    top:55px;
+  }
+  #precio-2{
+    top: 49px;
+  }
+  #precio-3{
+    top: 65px;
+  }
+  #precio-4{
+    top: 49px;
+  }
+  .masvendidos__cantidad{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 9px;
     line-height: 11px;
     /* identical to box height */
-  
+    
     text-align: center;
-  
+    
     color: #595959;
+    position:relative;
   }
-  #rectangle2{
-    position: absolute;
-    width: 235px;
-    height: 308px;
-    left: 402px;
-    top: 1507px;
-  
-    border: 1px solid #C3C3C3;
-    box-sizing: border-box;
-    border-radius: 21px;
+  #cantidad-1{
+    top:47px;
   }
-  #line2{
-    position: absolute;
-    width: 235px;
-    height: 0px;
-    left: 402px;
-    top: 1716px;
-  
-    border: 1px solid #C3C3C3;
+  #cantidad-2{
+    top:40px;
   }
-  #foto2{
-    position: absolute;
-    width: 217px;
-    height: 184px;
-    left: 410px;
-    top: 1531px;
-  
-    background: url("images/nuez\ mariposa\ 2.png");
-    background-blend-mode: multiply;
-    background-size: cover;
+  #cantidad-3{
+    top:54px;
   }
-  #product2{
-    position: absolute;
-    width: 143px;
-    height: 24px;
-    left: 448px;
-    top: 1730px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-  
-    color: #595959;
+  #cantidad-4{
+    top:40px;       
   }
-  #precio2{
-    position: absolute;
-    width: 37px;
-    height: 31px;
-    left: 499px;
-    top: 1756px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 28px;
-    text-align: center;
-  
-    /* Verde */
-  
-    color: #9BC617;
-  }
-  #cantidad2{
-    position: absolute;
-    width: 76px;
-    height: 11px;
-    left: 481px;
-    top: 1792px;
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9px;
-    line-height: 11px;
-    /* identical to box height */
-  
-    text-align: center;
-  
-    color: #595959;
-  
-  }
-  #rectangle3{
-    position: absolute;
-    width: 234px;
-    height: 308px;
-    left: 653px;
-    top: 1507px;
-  
-    border: 1px solid #C3C3C3;
-    box-sizing: border-box;
-    border-radius: 21px;
-  }
-  #line3{
-    position: absolute;
-    width: 234px;
-    height: 0px;
-    left: 653px;
-    top: 1716px;
-  
-    border: 1px solid #C3C3C3;
-  }
-  #foto3{
-    position: absolute;
-    width: 181px;
-    height: 166px;
-    left: 685px;
-    top: 1542px;
-  
-    background: url("images/nuez\ mariposa\ 3.png");
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  #product3{
-    position: absolute;
-    width: 168px;
-    height: 24px;
-    left: 686px;
-    top: 1730px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  #precio3{
-    position: absolute;
-    width: 48px;
-    height: 36px;
-    left: 747px;
-    top: 1756px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 28px;
-    text-align: center;
-  
-    /* Verde */
-  
-    color: #9BC617;
-  }
-  #cantidad3{
-    position: absolute;
-    width: 74px;
-    height: 11px;
-    left: 733px;
-    top: 1792px;
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9px;
-    line-height: 11px;
-    /* identical to box height */
-  
-    text-align: center;
-  
-    color: #595959;
-  }
-  #rectangle4{
-    position: absolute;
-    width: 235px;
-    height: 308px;
-    left: 904px;
-    top: 1507px;
-  
-    border: 1px solid #C3C3C3;
-    box-sizing: border-box;
-    border-radius: 21px;
-  }
-  #line4{
-    position: absolute;
-    width: 235px;
-    height: 0px;
-    left: 904px;
-    top: 1716px;
-  
-    border: 1px solid #C3C3C3;
-  }
-  #foto4{
-    position: absolute;
-    width: 219px;
-    height: 182px;
-    left: 912px;
-    top: 1528px;
-  
-    background: url("images/nuez\ mariposa\ 4.png");
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  #product4{
-    position: absolute;
-    width: 159px;
-    height: 18px;
-    left: 943px;
-    top: 1730px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 15px;
-    text-align: center;
-  
-    color: #595959;
-  }
-  #precio4{
-    position: absolute;
-    width: 47px;
-    height: 31px;
-    left: 997px;
-    top: 1756px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 28px;
-    text-align: center;
-  
-    /* Verde */
-  
-    color: #9BC617;
-  }
-  #cantidad4{
-    position: absolute;
-    width: 76px;
-    height: 11px;
-    left: 983px;
-    top: 1792px;
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9px;
-    line-height: 11px;
-    /* identical to box height */
-  
-    text-align: center;
-  
-    color: #595959;
-  
-  }
- 
+
+  /* ------------------- COMIENZO DEL NEWLETTER- SECCION HOME ---------*/
   .newsletter__title{
     font-weight: normal;
     font-size: 14px;
