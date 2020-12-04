@@ -71,170 +71,34 @@ nav a:hover {
   box-sizing: border-box;
   border-radius: 13.5px; }
 
-.line {
-  /* Line 1 */
-  position: absolute;
-  width: 1290px;
-  height: 0px;
-  left: 0px;
-  top: 124.1px;
-  border: 0.5px solid #A5A5A5; }
-
-.footer {
-  /* Footer */
-  position: absolute;
-  width: 1290px;
-  height: 220.38px;
-  left: 0px;
-  top: 2234px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* Azul */
-  background: #27566A; }
-
-.leftFootUl {
-  /* Almacén Natural */
-  position: absolute;
-  width: 247.25px;
-  height: 26.88px;
-  left: 60.02px;
-  top: 2281.48px;
+.footer__list {
   font-family: Archivo Black;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 22px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  list-style: none; }
 
-.leftFootLi {
-  /* Av. 7 132, La Plata, Buenos Aires. +54 (011) 15 2259-6325 greenlife_laplata@hotmail.com */
-  position: absolute;
-  width: 291.33px;
-  height: 105.35px;
-  left: 60.2px;
-  top: 2327.79px;
+.footer__list--item {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
+  line-height: 24px; }
 
-.centerFootLi {
-  /* Secciones */
-  position: absolute;
-  width: 247.25px;
-  height: 26.88px;
-  left: 404.92px;
-  top: 2281.48px;
-  font-family: Archivo Black;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 22px;
-  color: #FFFFFF; }
-
-.productosFoot {
-  /* Productos */
-  position: absolute;
-  width: 104.81px;
-  height: 21.5px;
-  left: 404.92px;
-  top: 2328.06px;
+.footer__list--link {
+  color: #FFFFFF;
+  text-decoration: none;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
+  line-height: 24px; }
 
-.nosotrosFoot {
-  /* Nosotros */
-  position: absolute;
-  width: 104.81px;
-  height: 21.5px;
-  left: 404.92px;
-  top: 2353.15px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
-
-.contactoFoot {
-  /* Contacto */
-  position: absolute;
-  width: 104.81px;
-  height: 21.5px;
-  left: 404.92px;
-  top: 2378.23px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
-
-.rightFootLi {
-  /* Seguinos */
-  position: absolute;
-  width: 157.67px;
-  height: 26.88px;
-  left: 1034.87px;
-  top: 2281.48px;
-  font-family: Archivo Black;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 22px;
-  color: #FFFFFF; }
-
-.rightFootIg {
-  /* greenlife_laplata */
-  position: absolute;
-  width: 158.56px;
-  height: 21.5px;
-  left: 1066.58px;
-  top: 2324.48px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
-
-.rightFootFb {
-  /* Green Life La Plata */
-  position: absolute;
-  width: 158.56px;
-  height: 21.5px;
-  left: 1066.58px;
-  top: 2361.21px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF; }
-
-.copyright {
-  /* legales */
-  position: absolute;
-  width: 516px;
-  height: 22.58px;
-  left: 387px;
-  top: 2466.47px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  color: #777777; }
+.footer__list--link:hover {
+  text-decoration: none;
+  color: #ffffff; }
 
 .bannerProductos {
   /* banner-ppal-web 1 */
@@ -1836,66 +1700,27 @@ section div a {
   text-align: center;
   color: #595959; }
 
-.newsletter {
-  position: absolute;
-  width: 1290px;
-  height: 260px;
-  left: 0px;
-  top: 1880px;
-  background: #F0F0F0; }
-
-.newsTitle {
-  /* NEWSLETTER */
-  position: absolute;
-  width: 168px;
-  height: 24px;
-  left: 561px;
-  top: 1932px;
-  font-family: Poppins;
-  font-style: normal;
+.newsletter__title {
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
-  color: #27566A; }
+  text-align: center; }
 
-.newsSuscribite {
-  /* ¡Suscribite y enterate de todas las novedades! */
-  position: absolute;
-  width: 477px;
-  height: 30px;
-  left: 407px;
-  top: 1961px;
-  font-family: Poppins;
-  font-style: normal;
+.newsletter__subtitle {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
-  text-align: center;
-  color: #27566A; }
+  text-align: center; }
 
-.newsLegend {
-  /* Promociones, ofertas, sorteos, regalos exclusivos, y más. */
-  position: absolute;
-  width: 350px;
-  height: 22px;
-  left: 470px;
-  top: 1996px;
-  font-family: Poppins;
-  font-style: normal;
+.newsletter__legend {
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
-  text-align: center;
-  color: #27566A; }
+  text-align: center; }
 
-.newsMail {
-  position: absolute;
+.newsletter__email {
   width: 404px;
   height: 36px;
-  left: 437px;
-  top: 2048px;
   background: #FFFFFF;
   border-radius: 10px; }
 
