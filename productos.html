@@ -1,193 +1,288 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="La más amplia variedad de productos de origen natural, separados por categorías. Descubrí todo lo que tenemos para vos y adentrate en el mundo de la alimentación saludable.">
-    <meta name="keywords" content="PRODUCTOS, CATEGORIAS, FRUTOS SECOS, CEREALES, FRUTAS DESHIDRATADAS, LEGUMBRES, GARBANZOS, DULCES, LECHES">
-    <title>Productos</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Productos</title>
+  </head>
+  
+  
+  <body>
     
-</head>
-<body>
-    <nav class="nav">
-    
-        <div class="nav_logo"></div>
-        <a href="index.html" class="nav_home">Home</a>
-      
-        <li class="nav-item dropdown"  style="list-style:none; position: absolute; width: 72.56px; height: 21.5px; left: 516px; top: 62px; ">
-            <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 13px; line-height: 19px; color: #777777;">
-            Productos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #9BC617; font-size: 13px;line-height: 19px;   ">
-                <a class="dropdown-item" href="productos.html" style="color: black;">Todos los productos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Frutos secos</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Mix y semillas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Frutas deshidratadas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Legumbres</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Conservas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Leches vegetales</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Dulces</a>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/logoweb.png" alt="" width="99.44px" height="67.19px">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="border: 0.5px solid #C3C3C3;box-sizing: border-box;border-radius: 13.5px;font-size: 10px;">
+        </ul>
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/shopping-cart.svg" alt="" width="20" height="20">
+        </a>
+      </div>
+    </div>
+  </nav>
 
-            </div>
-        </li>
-      
-        <a href="nosotros.html" class="nav_nosotros">Nosotros</a>
-        <a href="contacto.html" class="nav_contacto">Contacto</a>
-        <input type="search" placeholder="    Buscar" class="nav_search">
-
-    
-    </nav>
-
-    <div class="container-fluid" style="position: absolute; border: 0.5px solid #A5A5A5; top: 124.1px;">
+    <div class="row">
+        <div class="col-md-12" style="width: 100%;">
+          <img src="./images/banner-ppal-web 1.png" alt="banner web productos" style="width: 100%;">
+        </div>
     </div>
 
-    <section>
-        <div class="bannerProductos"></div>
-    </section>
-    <header>
-        <h1 class="titleP">Productos</h1>
-        <div class="leftP"></div>
-        <div class="rightP"></div>
-    </header>
-
-    <aside class="asideP">
-        <h2 class="asideP__categorias">Categorías</h2>
-        <div><a href="" class="asideP__categorias--cereales">Cereales</a></div>
-        <div><a href="" class="asideP__categorias--frutos">Frutos secos</a></div>
-        <div><a href="" class="asideP__categorias--mix">Mix y semillas</a></div>
-        <div><a href="" class="asideP__categorias--deshidratadas">Frutas deshidratadas</a></div>
-        <div><a href="" class="asideP__categorias--legumbres">Legumbres</a></div>
-        <div><a href="" class="asideP__categorias--conservas">Conservas</a></div>
-        <div><a href="" class="asideP__categorias--leches">Leches vegetales</a></div>
-        <div><a href="" class="asideP__categorias--dulces">Dulces</a></div>
-
-    </aside>
-
-    <section>
-        <div class="rectangle" >
-            <div class="rectangle__border--1"></div>
-            <div class="rectangle__line--1"></div>
-            <div class="rectangle__foto--1"></div>
-            <a href="" class="rectangle__product--1">Nuez Mariposa</a>
-            <p class="rectangle__precio--1">$109</p>
-            <p class="rectangle__cantidad--1">A partir de 100gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--2"></div>
-            <div class="rectangle__line--2"></div>
-            <div class="rectangle__foto--2"></div>
-            <a href="" class="rectangle__product--2">Castañas de Cajú</a>
-            <p class="rectangle__precio--2">$113</p>
-            <p class="rectangle__cantidad--2">A partir de 100gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--3"></div>
-            <div class="rectangle__line--3"></div>
-            <div class="rectangle__foto--3"></div>
-            <a href="" class="rectangle__product--3">Almendras non pareil</a>
-            <p class="rectangle__precio--3">$142</p>
-            <p class="rectangle__cantidad--3">A partir de 100gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--4"></div>
-            <div class="rectangle__line--4"></div>
-            <div class="rectangle__foto--4"></div>
-            <a href="" class="rectangle__product--4">Pistachos c/cáscara</a>
-            <p class="rectangle__precio--4">$207</p>
-            <p class="rectangle__cantidad--4">A partir de 100gr</p>
-        </div>
-        
-        <div class="rectangle">
-            <div class="rectangle__border--5"></div>
-            <div class="rectangle__line--5"></div>
-            <div class="rectangle__foto--5"></div>
-            <a href="" class="rectangle__product--5">Mani con cáscara</a>
-            <p class="rectangle__precio--5">$60</p>
-            <p class="rectangle__cantidad--5">A partir de 250gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--6"></div>
-            <div class="rectangle__line--6"></div>
-            <div class="rectangle__foto--6"></div>
-            <a href="" class="rectangle__product--6">Pasas de Uva Jumbo</a>
-            <p class="rectangle__precio--6">$25</p>
-            <p class="rectangle__cantidad--6">A partir de 100gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--7"></div>
-            <div class="rectangle__line--7"></div>
-            <div class="rectangle__foto--7"></div>
-            <a href="" class="rectangle__product--7">Garbanzos</a>
-            <p class="rectangle__precio--7">$55</p>
-            <p class="rectangle__cantidad--7">A partir de 250gr</p>
-        </div>
-
-        <div class="rectangle">
-            <div class="rectangle__border--8"></div>
-            <div class="rectangle__line--8"></div>
-            <div class="rectangle__foto--8"></div>
-            <a href="" class="rectangle__product--8">Maní repelado s/sal</a>
-            <p class="rectangle__precio--8">$48</p>
-            <p class="rectangle__cantidad--8">A partir de 250gr</p>
-        </div>
-
-        <button>VER MÁS PRODUCTOS</button>
-
-        
-        
-    </section>
+    <div class="row">
+      <div class="col-md-4" style="height: 1px;background: #595959;border-radius: 1.5px; margin-top: 106px; margin-left: 15px;width: 410px"></div>
+      <div class="col-md-4">
+        <h1 style="text-align: center; margin-top: 80px; font-family: Poppins;font-style: normal;font-weight: 600;color: #595959;">Productos</h1>
+    </div>
+    <div class="col-md-4" style="height: 1px;background: #595959;border-radius: 1.5px; margin-top: 106px; width: 430px;"></div>
+    </div>
     
+    <header>
+        <ul>
+          <i class='fa fa-shopping-cart'>
+            <span class='counter'></span>
+          </i>
+        </ul>
+      </header>
+      <div class='row' style="position: relative; top: 20px; ">
 
-
-    <div class="container-fluid" style="position: absolute; top: 1415px;height: 220.38px; background: #27566A;">
-        <div class="row">
-          <div class="col-md" style=" top: 30px;">
-            <ul class="footer__list">Almacén natural
-              <li class="footer__list--item">Av. 7 132, La Plata, Buenos Aires. </li>
-              <li class="footer__list--item">+54 (011) 15 2259-6325</li>
-              <li class="footer__list--item">greenlife_laplata@hotmail.com</li>
-            </ul>
-          </div>
-          <div class="col-md" style=" top: 30px;">
-            <ul class="footer__list"> Secciones
-              <li><a href="productos.html" class="footer__list--link">Productos</a></li>
-              <li><a href="nosotros.html" class="footer__list--link">Nosotros</a></li>
-              <li><a href="contacto.html" class="footer__list--link">Contacto</a></li>
-            </ul>
-          </div> 
-          <div class="col-md">
-  
-          </div>
-          <div class="col-md" style=" top: 30px;">
-            <ul class="footer__list">Seguinos
-              <li><a href="https://instagram.com/greenlife_laplata?igshid=917vsgrz8x7h" class="footer__list--link">Instagram</a></li>
-              <li><a href="https://www.facebook.com/Green-Life-La-Plata-104847937926571" class="footer__list--link">Facebook</a></li>
-            </ul>
-          </div>
-        
+        <div class="col-md-2 sm-2 xs-2">
+          <ul>
+            <li class="aside__productos">Categorías</li>
+            <li class="aside__productos--link"><a href="">Cereales</a></li>
+            <li class="aside__productos--link"><a href="">Frutos secos</a></li>
+            <li class="aside__productos--link"><a href="">Mix y semillas</a></li>
+            <li class="aside__productos--link"><a href="">Frutas deshidratadas</a></li>
+            <li class="aside__productos--link"><a href="">Legumbres</a></li>
+            <li class="aside__productos--link"><a href="">Conservas</a></li>
+            <li class="aside__productos--link"><a href="">Leches vegetales</a></li>
+            <li class="aside__productos--link"><a href="">Dulces</a></li>
+          </ul>
         </div>
-      </div>       
-                
-      <div class="container-fluid" style="top: 1647.47px; color: #777777;  height: 22.58px; position: absolute; display: flex; justify-content: space-around;">
-        <div class="row">
-          <div class="col-md">
-            <h3 style="font-size: 14px; font-family: Poppins;">&copy; Green Life Company - Todos los derechos reservados</h3>
-  
+          <div class="col-md-3" style="width: 234px; margin: 12px;">
+              <div class='product--blue' ">
+                <div class='product_inner'>
+                  <img src='images/nuez mariposa 1.png' width='300' style="width: 210px; height: 144px;">                
+                  <p>Nuez Mariposa</p>
+                  <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 100gr</p>
+                  <p style="color: #9BC617;font-size: 25px; font-weight:bold">$109</p>
+                  <button>Agregar al carrito</button>
+                </div>
+                <div class='product_overlay'>
+                  <h2>Added to basket</h2>
+                  <i class='fa fa-check'></i>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-3" style="width: 234px; margin: 12px;">
+            <div class='product--orange' >
+              <div class='product_inner'>
+                <img src='images/nuez mariposa 2.png' width='300' style="height: 144px;width: 217px;">
+                <p>Castañas de cajú</p>
+                <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 100gr</p>
+                <p style="color: #9BC617;font-size: 25px; font-weight:bold ">$113</p>
+                <button>Agregar al carrito</button>
+              </div>
+              <div class='product_overlay'>
+                <h2>Added to basket</h2>
+                <i class='fa fa-check'></i>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-md-3" style="width: 234px; margin: 12px;">
+            <div class='product--red' >
+              <div class='product_inner' >
+                <img src="images/nuez mariposa 3.png" width='300' style="height: 144px; width: 181px;">
+                <p>Almendras non pareil</p>
+                <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 100gr</p>
+                <p style="color: #9BC617;font-size: 25px; font-weight:bold">$142</p>
+                <button>Agregar al carrito</button>
+              </div>
+              <div class='product_overlay' >
+                <h2>Added to basket</h2>
+                <i class='fa fa-check'></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-ms-3 col-sm-3" style="width: 234px; margin: 12px; ">
+            <div class='product--green'>
+                <div class='product_inner'>
+                  <img src='images/nuez mariposa 4.png' width='300' style="width: 219px;height: 144px;">
+                  <p>Pistachos c/cáscara</p>
+                  <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 100gr</p>
+                  <p style="color: #9BC617;font-size: 25px; font-weight:bold">$202</p>
+                  <button>Agregar al carrito</button>
+                </div>
+                <div class='product_overlay'>
+                  <h2>Added to basket</h2>
+                  <i class='fa fa-check'></i>
+                </div>
+              </div>
+            
           </div>
         </div>
       </div>
-</body>
+
+      <div class='row' style=" position:relative;left: 118px;">
+        <div class="col-md-3" style="width: 210px;"></div>
+        <div class="col-md-3" style="width: 234px; margin: 12px;">
+            <div class='product--blue' ">
+              <div class='product_inner'>
+                <img src='images/nuez mariposa 5.png' width='300' style="width: 172px;height: 144px;">                
+                <p>Mani con cáscara</p>
+                <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 250gr</p>
+                <p style="color: #9BC617;font-size: 25px; font-weight:bold">$60</p>
+                <button>Agregar al carrito</button>
+              </div>
+              <div class='product_overlay'>
+                <h2>Added to basket</h2>
+                <i class='fa fa-check'></i>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-3" style="width: 234px; margin: 12px;">
+          <div class='product--orange' >
+            <div class='product_inner'>
+              <img src='images/nuez mariposa 6.png' width='300' style="height: 144px;width: 217px;">
+              <p>Pasas de Uva Jumbo</p>
+              <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 100gr</p>
+              <p style="color: #9BC617;font-size: 25px; font-weight:bold ">$25</p>
+              <button>Agregar al carrito</button>
+            </div>
+            <div class='product_overlay'>
+              <h2>Added to basket</h2>
+              <i class='fa fa-check'></i>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-md-3" style="width: 234px; margin: 12px;">
+          <div class='product--red' >
+            <div class='product_inner' >
+              <img src="images/nuez mariposa 7.png" width='300' style="height: 144px; width: 181px;">
+              <p>Garbanzos</p>
+              <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 250gr</p>
+              <p style="color: #9BC617;font-size: 25px; font-weight:bold">$55</p>
+              <button>Agregar al carrito</button>
+            </div>
+            <div class='product_overlay' >
+              <h2>Added to basket</h2>
+              <i class='fa fa-check'></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-ms-3 col-sm-3" style="width: 234px; margin: 12px; ">
+
+          <div class='product--green'>
+            <div class='product_inner'>
+              <img src='images/nuez mariposa 8.png' style="width: 219px;height: 144px;">
+              <p>Maní repelado s/sal</p>
+              <p style="font-family: Roboto; font-size: 12px;line-height: 11px; color: #595959;">A partir de 250gr</p>
+              <p style="color: #9BC617;font-size: 25px; font-weight:bold">$48</p>
+              <button>Agregar al carrito</button>
+            </div>
+            <div class='product_overlay'>
+              <h2>Added to basket</h2>
+              <i class='fa fa-check'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> 
+
+    <div class="row">
+      <div class="col-md-12" style="display: flex; justify-content: space-around;">
+        <button type="submit" class="product__submit">VER MÁS PRODUCTOS</button>
+      </div>
+    </div>
+  </div> 
+ 
+
+  <!---------------------------------------------FOOTER------------------------------------------------------------------->
+
+  <div class="container-fluid" style="position: relative; top: 100px; background: #27566A; display: flex; align-items: center;">
+    <div class="row">
+      <div class="col-md" style=" top: 30px;">
+        <ul class="footer__list">Almacén natural
+          <li class="footer__list--item">Av. 7 132, La Plata, Buenos Aires. </li>
+          <li class="footer__list--item">+54 (011) 15 2259-6325</li>
+          <li class="footer__list--item">greenlife_laplata@hotmail.com</li>
+        </ul>
+      </div>
+      <div class="col-md" style=" top: 30px;">
+        <ul class="footer__list"> Secciones
+          <li style="margin-top: 10px;"><a href="productos.html" class="footer__list--link" >Productos</a></li>
+          <li style="margin-top: 10px;"><a href="nosotros.html" class="footer__list--link" >Nosotros</a></li>
+          <li style="margin-top: 10px;"><a href="contacto.html" class="footer__list--link" >Contacto</a></li>
+        </ul>
+      </div> 
+      <div class="col-md">
+
+      </div>
+      <div class="col-md" style=" top: 30px; display: flex;">
+        <ul class="footer__list">Seguinos
+          <li><a href="https://instagram.com/greenlife_laplata?igshid=917vsgrz8x7h" class="footer__list--link"><img src="./images/instagram.svg" alt="" width="40" height="40" style="margin-top:15px;"></a></li>
+          <li><a href="https://www.facebook.com/Green-Life-La-Plata-104847937926571" class="footer__list--link"><img src="./images/facebook.svg" alt=""  width="40" height="40" style="margin-top: 15px; margin-bottom: 30px;"></a></li>
+        </ul>
+      </div>
+    
+    </div>
+  </div>       
+            
+  <div class="container-fluid" style="top: 110px; color: #777777;  height: 22.58px; position: relative; ">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 style="font-size: 14px; font-family: Poppins; text-align: center;">&copy; Green Life Company - Todos los derechos reservados</h3>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    
+  </body>
 </html>

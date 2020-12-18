@@ -5,85 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Llena el formulario de contacto y dejanos tu consulta, nos comunicaremos con vos al instante. Estamos trabajando para brindarte la mejor atención.">
     <meta name="keyboards" content="CONTACTO, CONTACTANOS, MAIL, TELEFONO, EMAIL, ASESORARTE, AYUDARTE, AYUDA, CONSULTA">
-    <title>Formulario de contacto</title>
+    <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="nav">
-    
-        <div class="nav_logo"></div>
-        <a href="index.html" class="nav_home">Home</a>
-      
-        <li class="nav-item dropdown"  style="list-style:none; position: absolute; width: 72.56px; height: 21.5px; left: 516px; top: 62px; ">
-            <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 13px; line-height: 19px; color: #777777;">
-            Productos
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="./images/logoweb.png" alt="" width="99.44px" height="67.19px">
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #9BC617; font-size: 13px;line-height: 19px;   ">
-                <a class="dropdown-item" href="productos.html" style="color: black;">Todos los productos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Frutos secos</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Mix y semillas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Frutas deshidratadas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Legumbres</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Conservas</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Leches vegetales</a>
-                <a class="dropdown-item" href="#" style="color: #FFFFFF;">Dulces</a>
-
-            </div>
-        </li>
-      
-        <a href="nosotros.html" class="nav_nosotros">Nosotros</a>
-        <a href="contacto.html" class="nav_contacto">Contacto</a>
-        <input type="search" placeholder="    Buscar" class="nav_search">
-
-      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="border: 0.5px solid #C3C3C3;box-sizing: border-box;border-radius: 13.5px;font-size: 10px;">
+          </ul>
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/shopping-cart.svg" alt="" width="20" height="20">
+          </a>
+        </div>
+      </div>
     </nav>
 
-    <div class="container-fluid" style="position: absolute; border: 0.5px solid #A5A5A5; top: 124.1px;">
+    <div class="row">
+      <div class="col-md-4" style="height: 1px;background: #595959;border-radius: 1.5px;  position:relative;top: 75px; left: 12px;;"></div>
+      <div class="col-md-4">
+        <h1 class="contact__title" style="text-align: center; position:relative;top: 50px;">¡Contactános!</h1>
+        <h2 class="contact__subtitle" style="text-align: center; top: 50px; position: relative;">Estamos acá para asesorarte.</h2>
+      </div>
+      <div class="col-md-4" style="height: 1px;background: #595959;border-radius: 1.5px;  position:relative;top: 75px;left:12px;"></div>
+    </div>
+    
+    <div class="row" style="position: relative; top: 150px;">
+      <div class="col-md-4">
+        <h2 class="contact__title--secondary">Contacto</h2>
+        <h4 class="contact__aside--title">Whatsapp</h4>
+        <p class="contact__aside--subtitle">+54 11 15 2259-6325</p>
+        <h4 class="contact__aside--title">Email</h4>
+        <p class="contact__aside--subtitle">greenlife_laplata@hotmail.com</p>
+        <h4 class="contact__aside--title">Dirección</h4>
+        <p class="contact__aside--subtitle">Av. 7 132, La Plata, Buenos Aires</p>
+        <h4 class="contact__aside--title">Horario de atención</h4>
+        <p class="contact__aside--subtitle">Lunes a Viernes - 9:00 a 18:00hs</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="contact__title--secondary">¿En qué podemos ayudarte?</h2>
+        <h6 class="contact__form--title">Nombre</h6>
+        <input type="text" placeholder="Ingrese su nombre" class="contact__form--input">
+        <h6 class="contact__form--title">Email</h6>
+        <input type="email" name="" id="" placeholder="Ingrese su correo electrónico" class="contact__form--input">
+        <h6 class="contact__form--title"> Motivo</h6>
+        <input type="text" name="" id="" placeholder="Ingrese el motivo de su consulta" class="contact__form--input">
+        
+        
+      </div>
+      <div class="col-md-4">
+        <h2 class="contact__title--secondary" style="color: white;">TITULO</h2>
+        <h6 class="contact__form--title">Apellido</h6>
+        <input type="text" name="" id="" placeholder="Ingrese su apellido" class="contact__form--input">
+        <h6 class="contact__form--title">Teléfono</h6>
+        <input type="tel" name="" id="" placeholder="Ingrese su teléfono" class="contact__form--input">
+      </div>
+    </div>
+    <div class="row" style="position: relative; top: 155px;">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h6 class="contact__form--title">Consulta</h6>
+        <textarea name="" id="" cols="30" rows="10" class="contact__form--textarea">      Ingrese su consulta aquí</textarea>
+        <button type="submit" style="top: 20px; position: relative;font-family: Poppins;background: #E5E5E5;width: 161px;height: 37px;">ENVIAR CONSULTA</button>
+      </div>
+      <div class="col-md-4"></div>
     </div>
 
-    <header>
-        <div class="leftContactanos"></div>
-        <div class="rightContactanos"></div>
-        <h1 class="contactanos">¡Contactános</h1>
-        <h2 class="subTitle">Estamos acá para asesorarte.</h2>
-    </header>
 
-    <aside class="aside">
-        <div id="contacto"><strong>Contacto</strong></div>
-        <div id="whatsApp"><strong>WhatsApp</strong></div>
-        <div id="number">+54 11 15 2259-6325</div>
-        <div id="email"><strong>Email</strong></div>
-        <div id="mail">greenlife_laplata@hotmail.com</div>
-        <div id="adress"><strong>Dirección</strong></div>
-        <div id="adressNum">Av. 7 132, La Plata, Buenos Aires</div>
-        <div id="horario"><strong>Horario de atención</strong></div>
-        <div id="hour">Lunes a Viernes - 9:00 a 18:00hs  </div>
-    </aside>
+  </div>
 
-    <article class="container">
-        <div id="helpYou">¿En qué podemos ayudarte?</div>
-        <div id="name">Nombre</div>
-        <input type="text" placeholder="     Ingrese su nombre" id="nameInput" required>
-        <div id="surname">Apellido</div>
-        <input type="text" placeholder="     Ingrese su apellido" id="surnameInput">
-        <div id="contactoMail">Email</div>
-        <input type="email" placeholder="     Ingrese su correo electrónico" id="mailInput" required>
-        <div id="tlephone">Teléfono</div>
-        <input type="tel" placeholder="     Ingrese su teléfono" id="telephoneInput" required>
-        <div id="motivo">Motivo</div>
-        <input type="text" placeholder="     Ingrese su motivo de consulta" id="motivoInput">
-        <div id="consulta">Consulta</div>
-        <textarea name=""  placeholder="     Ingrese su consulta aquí" id="consultaInput" required></textarea> 
-        <input type="submit" value="ENVIAR CONSULTA" id="submit">      
-    </article>
-
-    <div class="container-fluid" style="position: absolute; top: 942px;height: 220.38px; background: #27566A;">
+    <div class="container-fluid" style="position: relative; top: 400px; background: #27566A; display: flex; align-items: center;">
         <div class="row">
           <div class="col-md" style=" top: 30px;">
             <ul class="footer__list">Almacén natural
@@ -94,32 +109,38 @@
           </div>
           <div class="col-md" style=" top: 30px;">
             <ul class="footer__list"> Secciones
-              <li><a href="productos.html" class="footer__list--link">Productos</a></li>
-              <li><a href="nosotros.html" class="footer__list--link">Nosotros</a></li>
-              <li><a href="contacto.html" class="footer__list--link">Contacto</a></li>
+              <li style="margin-top: 10px;"><a href="productos.html" class="footer__list--link" >Productos</a></li>
+              <li style="margin-top: 10px;"><a href="nosotros.html" class="footer__list--link" >Nosotros</a></li>
+              <li style="margin-top: 10px;"><a href="contacto.html" class="footer__list--link" >Contacto</a></li>
             </ul>
           </div> 
           <div class="col-md">
   
           </div>
-          <div class="col-md" style=" top: 30px;">
+          <div class="col-md" style=" top: 30px; display: flex;">
             <ul class="footer__list">Seguinos
-              <li><a href="https://instagram.com/greenlife_laplata?igshid=917vsgrz8x7h" class="footer__list--link">Instagram</a></li>
-              <li><a href="https://www.facebook.com/Green-Life-La-Plata-104847937926571" class="footer__list--link">Facebook</a></li>
+              <li><a href="https://instagram.com/greenlife_laplata?igshid=917vsgrz8x7h" class="footer__list--link"><img src="./images/instagram.svg" alt="" width="40" height="40" style="margin-top:15px;"></a></li>
+              <li><a href="https://www.facebook.com/Green-Life-La-Plata-104847937926571" class="footer__list--link"><img src="./images/facebook.svg" alt=""  width="40" height="40" style="margin-top: 15px; margin-bottom: 30px;"></a></li>
             </ul>
           </div>
         
         </div>
       </div>       
                 
-      <div class="container-fluid" style="top: 1174.47px; color: #777777;  height: 22.58px; position: absolute; display: flex; justify-content: space-around;">
+      <div class="container-fluid" style="top: 410px; color: #777777;  height: 22.58px; position: relative; ">
         <div class="row">
-          <div class="col-md">
-            <h3 style="font-size: 14px; font-family: Poppins;">&copy; Green Life Company - Todos los derechos reservados</h3>
+          <div class="col-md-12">
+            <h3 style="font-size: 14px; font-family: Poppins; text-align: center;">&copy; Green Life Company - Todos los derechos reservados</h3>
   
           </div>
         </div>
       </div>
     
+
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
