@@ -308,7 +308,11 @@ header {
   font-size: 13px;
   line-height: 142.69%;
   height: 35px;
-  color: #C4C4C4;
+  color: black;
+  
+}
+.contact__form--input:focus{
+  color: black;
   
 }
 .contact__form--textarea{
